@@ -1,0 +1,4 @@
+params,selection_values
+n_estimators,50
+max_depth,10
+class_weight,balanced_subsample

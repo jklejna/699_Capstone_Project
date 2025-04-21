@@ -1,0 +1,8 @@
+params,selection_values
+hidden_layer_sizes,"(50, 50)"
+activation,relu
+solver,adam
+learning_rate,constant
+max_iter,100
+batch_size,16
+early_stopping,True
