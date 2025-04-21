@@ -1,13 +1,16 @@
 Project
 RatRace: a Framework for Time Series Modeling Evaluation
 
-Overview
+Overview:
+
 Our team explores the use of machine learning models to predict stock market movements based on historical price and economic/technical indicator data. Inspired by Michael Marcovici’s “RATTRADERS” experiment, where rats were trained to respond to market signals through sound, our team aimed to create a digital equivalent. We replaced rats with machine learning algorithms and the sound based cues with financial data.
 
-Data Access Statement
+Data Access Statement:
+
  This project uses publicly available historical stock data from Yahoo Finance using the open source yfinance Python library. The data includes daily open, high, low, close, volume, and adjusted close prices for publicly traded companies. All data is freely accessible through Yahoo Finance’s data platform. This project also uses publicly available economic data sourced from the Federal Reserve of St. Louis’ “Federal Economic Research Database (FRED)” and downloaded into various .csv files. This includes historical data for indicators like GDP, personal income levels, and durable goods orders. All data in these datasets is freely available through the FRED website.
 
-Relative Paths
+Relative Paths:
+
 The notebooks in our pipeline were developed in Google Collab, and file paths are relative to the Google Collab environment.
 
 To access files stored in you Google Drive, the following code is used in each notebook:
